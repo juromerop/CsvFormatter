@@ -6,7 +6,7 @@ foreach ($row in $csvData) {
     $second = $row.Second
     $flast = $row.Flast
     $fsecond = $row.Fsecond
-    $mail = $first + $flast  + '@company.com'
+    $mail = $first + '.' + $flast  + '@company.com'
     $row.mail = $mail
     $phone = $row.Phone
     $country = $row.Country
